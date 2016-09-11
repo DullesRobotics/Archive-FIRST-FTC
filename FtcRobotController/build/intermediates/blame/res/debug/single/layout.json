@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\servo.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\servo.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\pwms.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\pwms.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\pwm_device.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\pwm_device.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\simple_device.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\simple_device.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\analog_outputs.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\analog_outputs.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\digital_device.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\digital_device.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\red_line.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\red_line.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\i2c_device.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\i2c_device.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\banner_parent.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\banner_parent.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_swap_usb_devices.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_swap_usb_devices.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\analog_output_device.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\analog_output_device.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\legacy.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\legacy.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\digital_devices.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\digital_devices.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\loading_indicator_overlay.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\RobotCore-release\\res\\layout\\loading_indicator_overlay.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\matrices.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\matrices.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\button_list.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\button_list.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inspection.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\layout\\activity_inspection.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\device_interface_module.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\device_interface_module.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blocks.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_blocks.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\file_info.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\file_info.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ftc_configuration.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_configure_from_template.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_configure_from_template.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\servo_controller_banner.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\servo_controller_banner.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\servo_list.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\servo_list.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\motor_list.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor_list.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_programming_mode.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_programming_mode.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\template_info.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\template_info.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ftc_controller.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\src\\main\\res\\layout\\activity_ftc_controller.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\motor.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ftc_wifi_channel_selector.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_ftc_wifi_channel_selector.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_logs.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_view_logs.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_load.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_load.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\i2cs.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\i2cs.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\analog_input_device.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\analog_input_device.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\orange_warning.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\orange_warning.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\port_attached_row.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\port_attached_row.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\shape.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\shape.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\info_button.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\info_button.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\header.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_parent.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\item_list_parent.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\motor_controller_banner.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor_controller_banner.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\analog_inputs.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\analog_inputs.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_config_wifi_direct.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_config_wifi_direct.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\matrix_devices.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\matrix_devices.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\darker_gray_line.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\darker_gray_line.xml"
+    }
+]

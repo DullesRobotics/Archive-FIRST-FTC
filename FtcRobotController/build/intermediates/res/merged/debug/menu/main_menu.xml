@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Clear WiFi Connections"
+        android:id="@+id/clear_wifi"
+        android:showAsAction="never"
+        android:orderInCategory="100" />
+    <item
+        android:title="Clear WiFi Direct Connections"
+        android:id="@+id/clear_widi"
+        android:orderInCategory="101"
+        android:showAsAction="never" />
+    <item
+        android:title="Disconnect from WiFi Direct"
+        android:id="@+id/disc_widi"
+        android:orderInCategory="102"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Inspection-release-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Inspection-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\FTC-APP\\FtcRobotController\\unspecified\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_robotcontroller.png",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\FTC-APP\\FtcRobotController\\unspecified\\res\\drawable-xhdpi-v4\\icon_robotcontroller.png"
+    },
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_menu.png",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\FTC-APP\\FtcRobotController\\unspecified\\res\\drawable-xhdpi-v4\\icon_menu.png"
+    }
+]

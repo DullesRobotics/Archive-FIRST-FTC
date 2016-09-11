@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2016 Google Inc.
+Author: lizlooney@google.com (Liz Looney)
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:keepScreenOn="true"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:background="#FF0000">
+    <TextView
+      android:text="@string/programming_mode"
+      android:textColor="#FFFFFF"
+      android:padding="8dp"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:layout_centerVertical="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+    <ImageButton
+      android:id="@+id/menu_buttons"
+      android:contentDescription="menu_buttons"
+      android:scaleType="fitXY"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/icon_menu"
+      android:background="#FF0000"
+      android:padding="15dp"
+      android:adjustViewBounds="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true"
+      android:layout_centerInParent="true"
+      android:layout_centerHorizontal="true"
+      android:layout_margin="10dp"/>
+  </RelativeLayout>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_border">
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginBottom="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:text="@string/network_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <TextView
+        android:id="@+id/network_name"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <TextView
+        android:text="@string/passphrase_label"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <TextView
+        android:id="@+id/passphrase"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <TextView
+        android:text="@string/server_url_label"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <TextView
+        android:id="@+id/server_url"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_border">
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginBottom="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:text="@string/server_status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <TextView
+        android:id="@+id/server_status"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <Button
+        android:id="@+id/display_server_log_button"
+        android:text="@string/display_server_log_button"
+        android:onClick="onClickDisplayServerLogButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_border"
+    android:id="@+id/log_container"
+    android:visibility="invisible">
+    <ScrollView
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginBottom="5dp"
+      android:layout_marginRight="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+      <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </ScrollView>
+  </LinearLayout>
+</LinearLayout>

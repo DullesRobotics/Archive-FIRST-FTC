@@ -1,0 +1,33 @@
+  <category name="LinearOpMode">
+    <!--
+    FtcLinearOpMode.waitForStart method.
+    -->
+    <block type="linearOpMode_waitForStart"></block>
+    <!--
+    FtcLinearOpMode.idle method.
+    -->
+    <block type="linearOpMode_idle"></block>
+    <!--
+    FtcLinearOpMode.sleep method.
+    Initial milliseconds value is 1000.
+    -->
+    <block type="linearOpMode_sleep">
+      <value name="MILLISECONDS">
+        <block type="math_number">
+          <field name="NUM">1000</field>
+        </block>
+      </value>
+    </block>
+    <!--
+    FtcLinearOpMode.opModeIsActive method.
+    -->
+    <block type="linearOpMode_opModeIsActive"></block>
+    <!--
+    FtcLinearOpMode.isStarted method.
+    -->
+    <block type="linearOpMode_isStarted"></block>
+    <!--
+    FtcLinearOpMode.isStopRequested method.
+    -->
+    <block type="linearOpMode_isStopRequested"></block>
+  </category>

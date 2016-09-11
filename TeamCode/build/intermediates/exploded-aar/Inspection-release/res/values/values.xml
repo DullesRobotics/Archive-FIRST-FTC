@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="bright_red">#A6040E</color>
+    <color name="bright_red_text">#ff0a19</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorTitle">#FF0000</color>
+    <color name="dark_red_background">#3F0206</color>
+    <color name="light_red_background">#790E15</color>
+    <color name="medium_red_background">#4e0106</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="very_bright_red">#bf0510</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="airplaneError">\u2022Turn on airplane mode in settings. (This must be done manually)\n</string>
+    <string name="app_name">Inspection</string>
+    <string name="bluetoothError">\u2022Disable Bluetooth in settings\n</string>
+    <string name="button_inspection">Inspect</string>
+    <string name="fixOffer">\nWe found errors, but we can try to fix some automatically. Would you like us to try?</string>
+    <string name="goodToGo">Everything looks good to us!\n</string>
+    <string name="inspection_activity">Inspection Mode</string>
+    <string name="missingChannelChanger">\u2022You\'re missing the Channel Changer app. While this isn\'t required by FIRST, it\'s strongly recommended to have. \n</string>
+    <string name="notEnoughApps">\u2022Install all required apps. The Driver Station and Channel Changer can be installed from the Play Store. The Robot Controller app is installed from your programming computer. \n</string>
+    <string name="stringManufacturer">Manufacturer:</string>
+    <string name="stringModel">Model:</string>
+    <string name="tooManyApps">\u2022You have both the Robot Controller and the Driver Station installed. Delete one from this phone. \n</string>
+    <string name="verisonError">\u2022Your operating system is the wrong version. Are you using an approved phone?\n</string>
+    <string name="widiNameError">\u2022Make sure your WiFi Direct name is in the form ####-DS or ####-RC (for example, 9277-RC or 10650-DS) (This must be done manually)\n</string>
+    <string name="wifiConnectedError">\u2022Disconnect from the WiFi network you\'re connected to\n</string>
+    <string name="wifiEnabledError">\u2022Turn on WiFi in Settings\n</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+  </style>
+    <style name="CustomAlertDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:background">@color/black</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:windowBackground">@color/dark_red_background</item>
+  </style>
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+    <item name="android:fontFamily">sans-serif-light</item>
+  </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+    <item name="android:fontFamily">sans-serif-light</item>
+  </style>
+</resources>

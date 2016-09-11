@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\button_shape.xml",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\black_border.xml",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\drawable\\black_border.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu.png",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\drawable\\icon_menu.png"
+    },
+    {
+        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_robotcontroller.png",
+        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\drawable\\icon_robotcontroller.png"
+    }
+]

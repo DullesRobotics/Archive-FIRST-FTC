@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\k9usbbot.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9usbbot.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\pushbotsens.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbotsens.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\squarebot.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\squarebot.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\k9legacybot.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9legacybot.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\pushbot.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbot.xml"
+    },
+    {
+        "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\FTC-APP\\FtcRobotController\\src\\main\\res\\xml\\preferences.xml"
+    }
+]

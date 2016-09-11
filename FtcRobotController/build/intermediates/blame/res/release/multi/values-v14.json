@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "C:\\FTC-APP\\FtcRobotController\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1869,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 2015
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,156 @@
+  <category name="Gamepad">
+    <!--
+    Gamepad.A getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">A</field>
+    </block>
+    <!--
+    Gamepad.AtRest getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">AtRest</field>
+    </block>
+    <!--
+    Gamepad.B getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">B</field>
+    </block>
+    <!--
+    Gamepad.Back getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">Back</field>
+    </block>
+    <!--
+    Gamepad.DpadDown getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">DpadDown</field>
+    </block>
+    <!--
+    Gamepad.DpadLeft getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">DpadLeft</field>
+    </block>
+    <!--
+    Gamepad.DpadRight getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">DpadRight</field>
+    </block>
+    <!--
+    Gamepad.DpadUp getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">DpadUp</field>
+    </block>
+    <!--
+    Gamepad.Guide getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">Guide</field>
+    </block>
+    <!--
+    Gamepad.LeftBumper getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">LeftBumper</field>
+    </block>
+    <!--
+    Gamepad.LeftStickButton getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">LeftStickButton</field>
+    </block>
+    <!--
+    Gamepad.LeftStickX getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">LeftStickX</field>
+    </block>
+    <!--
+    Gamepad.LeftStickY getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">LeftStickY</field>
+    </block>
+    <!--
+    Gamepad.LeftTrigger getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">LeftTrigger</field>
+    </block>
+    <!--
+    Gamepad.RightBumper getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">RightBumper</field>
+    </block>
+    <!--
+    Gamepad.RightStickButton getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">RightStickButton</field>
+    </block>
+    <!--
+    Gamepad.RightStickX getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">RightStickX</field>
+    </block>
+    <!--
+    Gamepad.RightStickY getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">RightStickY</field>
+    </block>
+    <!--
+    Gamepad.RightTrigger getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">RightTrigger</field>
+    </block>
+    <!--
+    Gamepad.Start getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">Start</field>
+    </block>
+    <!--
+    Gamepad.X getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">X</field>
+    </block>
+    <!--
+    Gamepad.Y getter
+    -->
+    <block type="gamepad_getProperty">
+      <field name="IDENTIFIER">gamepad1</field>
+      <field name="PROP">Y</field>
+    </block>
+  </category>

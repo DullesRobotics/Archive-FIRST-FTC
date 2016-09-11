@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="bright_red">#A6040E</color>
+    <color name="bright_red_text">#ff0a19</color>
+    <color name="dark_red_background">#3F0206</color>
+    <color name="light_red_background">#790E15</color>
+    <color name="medium_red_background">#4e0106</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="very_bright_red">#bf0510</color>
+    <color name="white">#FFFFFF</color>
+    <string name="VUFORIA_INIT_ERROR_DEVICE_NOT_SUPPORTED">Failed to initialize Vuforia. This device is not supported.</string>
+    <string name="VUFORIA_INIT_ERROR_NO_CAMERA_ACCESS">Failed to initialize Vuforia. Camera not accessible</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_CANCELED_KEY">This app license key has been canceled and may no longer be used. Please get a new license key.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_INVALID_KEY">Invalid Key used. Please make sure you are using a valid Vuforia App Key.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_MISMATCH_KEY">Vuforia App key is not valid for this product. Please get a valid key, by logging into your account at developer.vuforia.com and choosing the right product type during project creation.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_MISSING_KEY">Vuforia App key is missing. Please get a valid key, by logging into your account at developer.vuforia.com and creating a new project.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT">No network available. Please make sure you are connected to the Internet.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT">Unable to contact server. Please try again later.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH">Vuforia App key is not valid for this product. Please get a valid key, by logging into your account at developer.vuforia.com and choosing the right product type during project creation.</string>
+    <string name="VUFORIA_INIT_LICENSE_ERROR_UNKNOWN_ERROR">Failed to initialize Vuforia.</string>
+    <string name="app_name">RobotCore</string>
+    <string name="configGivingUpOnCommand">Giving up on command %1$s(%2$d) after %3$d attempts</string>
+    <string name="configTypeAccelerometer">Accelerometer</string>
+    <string name="configTypeAdafruitColorSensor">Adafruit Color Sensor</string>
+    <string name="configTypeAnalogInput">Analog Input</string>
+    <string name="configTypeAnalogOutput">Analog Output</string>
+    <string name="configTypeColorSensor">Color Sensor</string>
+    <string name="configTypeCompass">Compass</string>
+    <string name="configTypeContinuousRotationServo">Continuous Rotation Servo</string>
+    <string name="configTypeDeviceInterfaceModule">Device Interface Module</string>
+    <string name="configTypeDigitalDevice">Digital Device</string>
+    <string name="configTypeGyro">Gyro</string>
+    <string name="configTypeI2cDevice">I2C Device</string>
+    <string name="configTypeI2cDeviceSynch">I2C Device (Synchronous)</string>
+    <string name="configTypeIrSeeker">IR Seeker</string>
+    <string name="configTypeIrSeekerV3">IR Seeker v3</string>
+    <string name="configTypeLED">LED</string>
+    <string name="configTypeLegacyModuleController">Legacy Module Controller</string>
+    <string name="configTypeLightSensor">Light Sensor</string>
+    <string name="configTypeMatrixController">Matrix Controller</string>
+    <string name="configTypeMotor">Motor</string>
+    <string name="configTypeMotorController">Motor Controller</string>
+    <string name="configTypeNothing">Nothing</string>
+    <string name="configTypeOpticalDistanceSensor">Optical Distance Sensor</string>
+    <string name="configTypePulseWidthDevice">Pulse Width Device</string>
+    <string name="configTypeServo">Servo</string>
+    <string name="configTypeServoController">Servo Controller</string>
+    <string name="configTypeTouchSensor">Touch Sensor</string>
+    <string name="configTypeTouchSensorMultiplexer">Touch Sensor Multiplexer</string>
+    <string name="configTypeUltrasonicSensor">Ultrasonic Sensor</string>
+    <string name="configTypeUnknown">[Unknown]</string>
+    <string name="defaultOpModeName">Stop Robot</string>
+    <string name="deviceDisplayNameUnknownUSBDevice">unknown USB device [%s]</string>
+    <string name="errorOpModeStuck">OpMode \'%1$s\' stuck in %2$s. Restarting robot controller app.</string>
+    <string name="idAppDriverStation">Driver Station</string>
+    <string name="idAppRobotController">Robot Controller</string>
+    <string name="incompatibleAppsError">Incompatible apps: %1$s=v%2$d vs %3$s=v%4$d</string>
+    <string name="networkStatusActive">active</string>
+    <string name="networkStatusCreatedAPConnection">active on SSID: %s</string>
+    <string name="networkStatusEnabled">enabled</string>
+    <string name="networkStatusError">error</string>
+    <string name="networkStatusInactive">inactive</string>
+    <string name="networkStatusInternalError">internal error</string>
+    <string name="networkStatusUnknown">unknown</string>
+    <string name="noSerialNumber">USB serial number unknown</string>
+    <string name="peerStatusConnected">connected</string>
+    <string name="peerStatusDisconnected">disconnected</string>
+    <string name="pref_driver_station_mac">pref_driver_station_mac</string>
+    <string name="pref_driver_station_mac_default">NONE</string>
+    <string name="pref_driver_station_password">pref_driver_station_password</string>
+    <string name="pref_driver_station_password_default">password</string>
+    <string name="robotStateEmergencyStop">EMERGENCY STOP</string>
+    <string name="robotStateInit">initializing</string>
+    <string name="robotStateInternalError">internal error</string>
+    <string name="robotStateNotStarted">stopped</string>
+    <string name="robotStateRunning">running</string>
+    <string name="robotStateStopped">stopped</string>
+    <string name="robotStateUnknown">unknown</string>
+    <string name="robotStatusFailedToStartRobot">failed to start robot</string>
+    <string name="robotStatusInternalError">internal error</string>
+    <string name="robotStatusNetworkTimedOut">network timed out</string>
+    <string name="robotStatusScanningUSB">scanning for USB devices</string>
+    <string name="robotStatusStartingRobot">starting robot</string>
+    <string name="robotStatusUnableToCreateRobot">unable to create robot</string>
+    <string name="robotStatusUnknown">unknown</string>
+    <string name="robotStatusWaitingOnNetwork">waiting on network</string>
+    <string name="toastOpModeStuck">OpMode stuck in %s. Restarting robot controller app.</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

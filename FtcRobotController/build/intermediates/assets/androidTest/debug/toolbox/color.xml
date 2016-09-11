@@ -1,0 +1,28 @@
+  <category name="Color">
+    <block type="color_getProperty">
+      <field name="PROP">Red</field>
+    </block>
+    <block type="color_getProperty">
+      <field name="PROP">Green</field>
+    </block>
+    <block type="color_getProperty">
+      <field name="PROP">Blue</field>
+    </block>
+    <block type="color_getProperty">
+      <field name="PROP">Alpha</field>
+    </block>
+    <block type="color_getProperty">
+      <field name="PROP">Hue</field>
+    </block>
+    <block type="color_getProperty">
+      <field name="PROP">Saturation</field>
+    </block>
+    <block type="color_getProperty">
+      <field name="PROP">Value</field>
+    </block>
+    <block type="color_rgbToColor"></block>
+    <block type="color_argbToColor"></block>
+    <block type="color_hsvToColor"></block>
+    <block type="color_ahsvToColor"></block>
+    <block type="color_textToColor"></block>
+  </category>

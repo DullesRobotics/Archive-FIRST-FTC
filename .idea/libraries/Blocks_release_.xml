@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Blocks-release-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/Blocks-release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
