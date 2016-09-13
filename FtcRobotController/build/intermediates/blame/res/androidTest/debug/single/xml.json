@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\k9legacybot.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9legacybot.xml"
+    },
+    {
         "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\k9legacybot.xml",
         "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9legacybot.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\k9usbbot.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9usbbot.xml"
     },
     {
         "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\device_filter.xml",
@@ -12,6 +20,10 @@
         "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbotsens.xml"
     },
     {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\pushbotsens.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbotsens.xml"
+    },
+    {
         "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\preferences.xml",
         "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\xml\\preferences.xml"
     },
@@ -20,11 +32,27 @@
         "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9usbbot.xml"
     },
     {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\device_filter.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\pushbot.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbot.xml"
+    },
+    {
         "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\squarebot.xml",
         "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\squarebot.xml"
     },
     {
         "merged": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\pushbot.xml",
         "source": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbot.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\preferences.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\squarebot.xml",
+        "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\squarebot.xml"
     }
 ]

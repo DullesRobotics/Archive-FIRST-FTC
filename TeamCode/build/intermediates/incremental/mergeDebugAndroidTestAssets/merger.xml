@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\FTC-APP\TeamCode\src\androidTest\assets"/><source path="C:\FTC-APP\TeamCode\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\FIRST-FTC\TeamCode\src\androidTest\assets"/><source path="C:\FIRST-FTC\TeamCode\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

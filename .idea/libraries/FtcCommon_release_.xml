@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="FtcCommon-release-">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res" />
+      <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
