@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\FTC-APP\FtcRobotController\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\FTC-APP\FtcRobotController\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\FIRST-FTC\FtcRobotController\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\FIRST-FTC\FtcRobotController\src\debug\shaders"/></dataSet></merger>
