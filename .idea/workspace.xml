@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b20fd9a-dc9e-4624-8bc1-0d0b69cb8db1" name="Default" comment="Testing TODO">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TemplateOpMode_Iterative.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TemplateOpMode_Linear.java" />
+    <list default="true" id="3b20fd9a-dc9e-4624-8bc1-0d0b69cb8db1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TemplateOpMode_Iterative.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TemplateOpMode_Iterative.java" />
     </list>
     <ignored path="FIRST-FTC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +62,8 @@
       <file leaf-file-name="TemplateOpMode_Iterative.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TemplateOpMode_Iterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35172415">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -2969,7 +2967,25 @@
       <option name="project" value="LOCAL" />
       <updated>1473733151411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Template OpModes to teamCode">
+      <created>1473734313780</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473734313780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Template OpModes to teamCode">
+      <created>1473734451632</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1473734451632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Template OpModes to teamCode">
+      <created>1473734699456</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1473734699456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3019,7 +3035,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing commit from Android Studio" />
     <MESSAGE value="Testing TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing TODO" />
+    <MESSAGE value="Added Template OpModes to teamCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Template OpModes to teamCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3073,8 +3090,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TemplateOpMode_Iterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35172415">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding />
         </state>
       </provider>
