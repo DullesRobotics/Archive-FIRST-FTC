@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\FTC-APP\\FtcRobotController\\unspecified\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
     }
