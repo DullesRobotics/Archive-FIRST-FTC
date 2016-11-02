@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="xxhdpi"
+    format="7"
+    timestamp="50078966386481"
+    token="-2687311691647071157" >
+
+    <task
+        name="javac"
+        duration="1600" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="897" />
+    <task
+        name="verifier"
+        duration="264" />
+
+    <artifact
+        location="C:\FIRST-FTC\TeamCode\build\outputs\apk\TeamCode-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="50078966386481" >
+        <artifact
+            location="C:\FIRST-FTC\TeamCode\build\outputs\apk\TeamCode-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

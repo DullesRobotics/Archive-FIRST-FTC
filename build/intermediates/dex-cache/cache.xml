@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-WirelessP2p-release_dc868e816430aa16c083baa6f12ae636373f765f.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-ModernRobotics-release_c787294ee1991557c74b389b2d9eff994cb8b95a.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\d2xx.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a6cc281519866bbb2d0ac480409212d8d9816d18">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\d2xx_24a074f6eca6e75b96fba35ea5c037f0e79bdfd4.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\Blocks-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c5216545889f13d4560613d35d498b2ca2db1d1f">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Blocks-release_4365530c5e7299df04e284c30e4612845bd2efc7.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="15632afee8c14c7c0ba7168d25710c38badee7c8">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_5cd0d34742f609a992856d2b27e5fb941c964b50.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec068454985de756c760317d9c63c23b3ce2055c">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-FtcCommon-release_18c4687bd0873ca1fb4bc6d3f3c6e7898f95bdca.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3cf17b28dcf6e33658f301f5de85d30732b8ab53">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\instant-run_4eab79c16e21f555b09f49a9ac5207e4388953bc.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\Inspection-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b1a3a00c0ec6312741914629ed283101a3301293">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Inspection-release_b49a6fb2859f27bec55a4a15be2bea237f40efd4.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4d964a43f48520428edfadad534fa0a3279deb84">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Hardware-release_a6a8fd973959e768339743d354d39da597f5d4e3.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Analytics-release_258b244b52b986f45e6695f4d1878cfd32f64246.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ab7a52d8e6bc27952e9f88e38f8e93d0c5326298">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\instant-run-bootstrap_593355be2a87590915a588e71e17ac3d5e6670d4.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\gson-2.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f8bcd8ef93636064d155d8e8ea6541ea7e4280d0">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\gson-2.7_e2a9d28698e53ec53949b11cfc389f89f5287eb5.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2a24cdb4bd53ff8f890698775608b84ab6703fe2">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-RobotCore-release_7d54d6ef1db3321c9cc2c1bdc09c1f5464daa5f6.jar" />
+    </item>
+    <item
+        jar="C:\FIRST-FTC\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\Vuforia.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ca5be875a082e7b5f0277a0e85564617b181ae76">
+        <dex dex="C:\FIRST-FTC\TeamCode\build\intermediates\pre-dexed\debug\Vuforia_f427d146e55274c113a36671ed355e0d7086168a.jar" />
+    </item>
+
+</items>
