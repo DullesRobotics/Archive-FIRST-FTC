@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\FTC-APP\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,40 +12,14 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "C:\\FTC-APP\\FtcRobotController\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 1869,
+                        "startOffset": 1909,
                         "endLine": 42,
                         "endColumn": 12,
-                        "endOffset": 2015
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 4,
-                    "endColumn": 12,
-                    "endOffset": 201
-                },
-                "from": {
-                    "file": "C:\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\values-v14\\styles.xml",
-                    "position": {
-                        "startLine": 40,
-                        "startColumn": 4,
-                        "startOffset": 1869,
-                        "endLine": 42,
-                        "endColumn": 12,
-                        "endOffset": 2015
+                        "endOffset": 2057
                     }
                 }
             }
