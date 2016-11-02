@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "outputFile": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,33 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\values-v11\\values-v11.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 4,
-                        "endColumn": 12,
-                        "endOffset": 187
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 4,
-                    "endColumn": 12,
-                    "endOffset": 187
-                },
-                "from": {
-                    "file": "C:\\FTC-APP\\TeamCode\\build\\intermediates\\exploded-aar\\FTC-APP\\FtcRobotController\\unspecified\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

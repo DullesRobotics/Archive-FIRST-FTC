@@ -68,12 +68,12 @@ public class TemplateOpMode_Linear extends LinearOpMode {
          * to 'get' must correspond to the names assigned during the robot configuration
          * step (using the FTC Robot Controller app on the phone).
          */
-        // leftMotor  = hardwareMap.dcMotor.get("left motor");
+        //leftMotor  = hardwareMap.dcMotor.get("left motor");
         // rightMotor = hardwareMap.dcMotor.get("right motor");
 
         // eg: Set the drive motor directions:
         // "Reverse" the motor that runs backwards when connected directly to the battery
-        // leftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
+        //leftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         // rightMotor.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
 
         // Wait for the game to start (driver presses PLAY)
@@ -88,6 +88,8 @@ public class TemplateOpMode_Linear extends LinearOpMode {
             // eg: Run wheels in tank mode (note: The joystick goes negative when pushed forwards)
             // leftMotor.setPower(-gamepad1.left_stick_y);
             // rightMotor.setPower(-gamepad1.right_stick_y);
+           // leftMotor.setPower(gamepad2.right_trigger);
+
 
             idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
         }
