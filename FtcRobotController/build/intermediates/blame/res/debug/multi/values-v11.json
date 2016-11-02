@@ -1,5 +1,31 @@
 [
     {
+        "outputFile": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "C:\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1826,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 1958
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
