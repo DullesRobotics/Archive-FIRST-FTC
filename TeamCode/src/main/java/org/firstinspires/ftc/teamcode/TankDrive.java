@@ -25,7 +25,10 @@ public class TankDrive extends OpMode {
         float rJoyY = -gamepad1.right_stick_y;
         float lJoyY = -gamepad1.left_stick_y;
 
-        leftMotor.setPower(lJoyY);
-        rightMotor.setPower(rJoyY);
+        float leftPower = (lJoyY > 0) ? lJoyY*lJoyY : -lJoyY*lJoyY;
+        float rightPower = (rJoyY > 0) ? rJoyY*rJoyY : -rJoyY*rJoyY;
+
+        leftMotor.setPower(leftPower);
+        rightMotor.setPower(rightPower);
     }
 }

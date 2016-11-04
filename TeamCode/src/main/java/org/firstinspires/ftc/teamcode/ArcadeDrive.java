@@ -21,8 +21,14 @@ public class ArcadeDrive extends OpMode {
         float rJoyX = -gamepad1.right_stick_x;
         float rJoyY = -gamepad1.right_stick_y;
 
-        float leftPower = Range.clip(rJoyY + rJoyX,-1, 1);
-        float rightPower = Range.clip(rJoyY-rJoyX,-1,1);
+        double rJoyXSquared = Math.pow(rJoyX,2);
+        double rJoyYSquared = Math.pow(rJoyY,2);
+
+        double rightOutput = rJoyYSquared + rJoyXSquared;
+        double leftOutput = rJoyYSquared + rJoyXSquared;
+
+        double leftPower = Range.clip(leftOutput,-1, 1);
+        double rightPower = Range.clip(rightOutput,-1,1);
 
         leftMotor.setPower(leftPower);
         rightMotor.setPower(rightPower);
