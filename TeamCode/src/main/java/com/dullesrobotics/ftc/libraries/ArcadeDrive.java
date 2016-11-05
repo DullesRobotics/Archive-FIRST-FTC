@@ -20,6 +20,7 @@ public class ArcadeDrive extends Drivetrain{
     @Override
     public void driveWithGamepad() {
         Gamepad gamepad = getGamepad();
+        drive(-gamepad.left_stick_x,-gamepad.left_stick_y); //Don't forget the negatives
 
     }
     public void drive(double xPower, double yPower){
