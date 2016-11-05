@@ -12,14 +12,14 @@ public class ArcadeDrive extends OpMode {
     DcMotor rightMotor;
     @Override
     public void init() {
-        leftMotor = hardwareMap.dcMotor.get("leftMotor");
-        rightMotor = hardwareMap.dcMotor.get("rightMotor");
+        //leftMotor = hardwareMap.dcMotor.get("leftMotor");
+        //rightMotor = hardwareMap.dcMotor.get("rightMotor");
     }
 
     @Override
     public void loop() {
-        float rJoyX = -gamepad1.right_stick_x;
-        float rJoyY = -gamepad1.right_stick_y;
+        float rJoyX = -gamepad2.right_stick_x;
+        float rJoyY = -gamepad2.right_stick_y;
 
         double rJoyXSquared = Math.pow(rJoyX,2);
         double rJoyYSquared = Math.pow(rJoyY,2);
@@ -30,7 +30,18 @@ public class ArcadeDrive extends OpMode {
         double leftPower = Range.clip(leftOutput,-1, 1);
         double rightPower = Range.clip(rightOutput,-1,1);
 
-        leftMotor.setPower(leftPower);
-        rightMotor.setPower(rightPower);
+        telemetry.addData("Status","Right power: " + rightPower + " Left power: " + leftPower);
+        telemetry.update();
+        //System.out.println(gamepad2.right_bumper == true);
+
+        //leftMotor.setPower(leftPower);
+        //rightMotor.setPower(rightPower);
+        /*IMPORTANT:
+            -right_stick_y = right_trigger
+            -right_stick_x = left_trigger
+            -Buttons A,B,Y, and X are normal.
+            -Left stick is normal.
+
+         */
     }
 }
