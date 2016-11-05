@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="19"
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
     density="xxhdpi"
-    format="7"
-    timestamp="50078966386481"
-    token="-2687311691647071157" >
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="446792269857536"
+    token="-2687311691647071157"
+    verifier="INITIAL_BUILD" >
 
     <task
         name="javac"
-        duration="1600" />
+        duration="2150" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="897" />
+        duration="1008" />
     <task
         name="verifier"
-        duration="264" />
+        duration="394" />
 
     <artifact
         location="C:\FIRST-FTC\TeamCode\build\outputs\apk\TeamCode-debug.apk"
         type="MAIN" />
 
-    <build timestamp="50078966386481" >
+    <build
+        timestamp="446792269857536"
+        verifier="INITIAL_BUILD" >
         <artifact
             location="C:\FIRST-FTC\TeamCode\build\outputs\apk\TeamCode-debug.apk"
             type="MAIN" />
