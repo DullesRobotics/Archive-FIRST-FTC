@@ -8,12 +8,10 @@ import com.qualcomm.robotcore.hardware.Gamepad;
  */
 
 public abstract class EnhancedDrivetrain extends Drivetrain {
-    public EnhancedDrivetrain(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight) {
-        super(frontLeft, frontRight, backLeft, backRight);
+    public EnhancedDrivetrain(BasicRobot r) {
+        super(r);
     }
-    public EnhancedDrivetrain(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight, Gamepad g) {
-        super(frontLeft, frontRight, backLeft, backRight, g);
-    }
+
 
     public final double mmInInch = 25.4;
 
