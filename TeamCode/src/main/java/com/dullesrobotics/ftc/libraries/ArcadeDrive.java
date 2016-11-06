@@ -9,25 +9,21 @@ import com.qualcomm.robotcore.hardware.Gamepad;
 
 public class ArcadeDrive extends Drivetrain{
 
-    public ArcadeDrive(DcMotor FLM, DcMotor FRM, DcMotor BLM, DcMotor BRM){
-        super(FLM,FRM,BLM,BRM);
-
-    }
-    public ArcadeDrive(DcMotor FLM, DcMotor FRM, DcMotor BLM, DcMotor BRM, Gamepad g){
-        super(FLM,FRM,BLM,BRM,g);
+    public ArcadeDrive(BasicRobot r){
+        super(r);
     }
 
     @Override
     public void driveWithGamepad() {
-        Gamepad gamepad = getGamepad();
+        Gamepad gamepad = robot.getGamepad1();
         drive(-gamepad.left_stick_x,-gamepad.left_stick_y); //Don't forget the negatives
 
     }
     public void drive(double xPower, double yPower){
-        getFLM().setPower(xPower + yPower);
-        getFRM().setPower(-xPower + yPower);
-        getBLM().setPower(xPower + yPower);
-        getBRM().setPower(-xPower + yPower);
+        robot.getFLM().setPower(xPower + yPower);
+        robot.getFRM().setPower(-xPower + yPower);
+        robot.getBLM().setPower(xPower + yPower);
+        robot.getBRM().setPower(-xPower + yPower);
     }
 
 
