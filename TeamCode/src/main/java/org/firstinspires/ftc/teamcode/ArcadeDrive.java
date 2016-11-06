@@ -1,47 +1,21 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.dullesrobotics.ftc.libraries.BasicRobot;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.util.Range;
 
+/**
+ * Created by Kenneth on 11/6/2016.
+ */
 
-@TeleOp(name = "Arcade Drive")
 public class ArcadeDrive extends OpMode {
-    DcMotor leftMotor;
-    DcMotor rightMotor;
+    BasicRobot robot;
     @Override
     public void init() {
-        //leftMotor = hardwareMap.dcMotor.get("leftMotor");
-        //rightMotor = hardwareMap.dcMotor.get("rightMotor");
+        robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1);
     }
 
     @Override
     public void loop() {
-        float rJoyX = -gamepad2.right_stick_x;
-        float rJoyY = -gamepad2.right_stick_y;
 
-        double rJoyXSquared = Math.pow(rJoyX,2);
-        double rJoyYSquared = Math.pow(rJoyY,2);
-
-        double rightOutput = rJoyYSquared + rJoyXSquared;
-        double leftOutput = rJoyYSquared + rJoyXSquared;
-
-        double leftPower = Range.clip(leftOutput,-1, 1);
-        double rightPower = Range.clip(rightOutput,-1,1);
-
-        telemetry.addData("Status","Right power: " + rightPower + " Left power: " + leftPower);
-        telemetry.update();
-        //System.out.println(gamepad2.right_bumper == true);
-
-        //leftMotor.setPower(leftPower);
-        //rightMotor.setPower(rightPower);
-        /*IMPORTANT:
-            -right_stick_y = right_trigger
-            -right_stick_x = left_trigger
-            -Buttons A,B,Y, and X are normal.
-            -Left stick is normal.
-
-         */
     }
 }
