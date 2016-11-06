@@ -36,7 +36,10 @@ import com.qualcomm.ftcrobotcontroller.R;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.RobotLog;
+import com.vuforia.HINT;
+import com.vuforia.Vuforia;
 
 import org.firstinspires.ftc.robotcore.external.ClassFactory;
 import org.firstinspires.ftc.robotcore.external.matrices.MatrixF;
@@ -84,7 +87,8 @@ import java.util.List;
  * is explained below.
  */
 
-@Autonomous(name="Concept: Vuforia Navigation", group ="Concept")
+//@Autonomous(name="Concept: Vuforia Navigation", group ="Concept")
+@TeleOp(name="TestVuforia")
 
 public class ConceptVuforiaNavigation extends LinearOpMode {
 
@@ -124,7 +128,9 @@ public class ConceptVuforiaNavigation extends LinearOpMode {
          */
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(R.id.cameraMonitorViewId);
         parameters.vuforiaLicenseKey = "AQyJpGD/////AAAAGcbPAS6XGU74twyS4V4299h4WyzYoviFE+iCnDfDPSgISC/uACE2A26qUCozhpbAJtEU+V0S3DRYEvMIN9vDluc6Qby3Ifjmfrp+UwXthEGe1SL9KTUkSqkaFySHnwxz7H+mFBzAnSgckc764UDyeLi1FfVv7FiDYfBm121n7imRHb3fvNpmMr1guhH/1sdg8SkCpYxZDkewvNRLYGlGENtGIhviyBFBcsn/cEC22v6AJs+4IoY929DhBKXw35ecS1BUnbpvoSHlrgyDcYaztvg5z6AYnNoPHFKFdP/MmU86ZZr/bEiruQWUcerNbDJlOYhpuOJBhcd+8s6KcJCLy1G68cw+pUZm1RMEox4In1c7";
+        //This license key should work.
         parameters.cameraDirection = VuforiaLocalizer.CameraDirection.BACK;
+        Vuforia.setHint(HINT.HINT_MAX_SIMULTANEOUS_IMAGE_TARGETS,4); //Kinda self explanatory
         this.vuforia = ClassFactory.createVuforiaLocalizer(parameters);
 
         /**
