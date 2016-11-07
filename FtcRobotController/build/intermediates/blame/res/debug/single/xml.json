@@ -1,17 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\xml\\device_filter.xml"
-    },
-    {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\pushbotsens.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbotsens.xml"
-    },
-    {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\k9legacybot.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9legacybot.xml"
-    },
-    {
         "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "C:\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\xml\\preferences.xml"
     },
@@ -20,16 +8,8 @@
         "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbotsens.xml"
     },
     {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\xml\\preferences.xml"
-    },
-    {
         "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\k9legacybot.xml",
         "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9legacybot.xml"
-    },
-    {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\squarebot.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\squarebot.xml"
     },
     {
         "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\k9usbbot.xml",
@@ -40,19 +20,11 @@
         "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbot.xml"
     },
     {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\k9usbbot.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9usbbot.xml"
-    },
-    {
         "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
         "source": "C:\\FIRST-FTC\\FtcRobotController\\src\\main\\res\\xml\\device_filter.xml"
     },
     {
         "merged": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\squarebot.xml",
         "source": "C:\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\squarebot.xml"
-    },
-    {
-        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\xml\\pushbot.xml",
-        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\pushbot.xml"
     }
 ]

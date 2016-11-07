@@ -127,7 +127,7 @@ public class ConceptVuforiaNavigation extends LinearOpMode {
          * {@link Parameters} instance with which you initialize Vuforia.
          */
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(R.id.cameraMonitorViewId);
-        parameters.vuforiaLicenseKey = "AQyJpGD/////AAAAGcbPAS6XGU74twyS4V4299h4WyzYoviFE+iCnDfDPSgISC/uACE2A26qUCozhpbAJtEU+V0S3DRYEvMIN9vDluc6Qby3Ifjmfrp+UwXthEGe1SL9KTUkSqkaFySHnwxz7H+mFBzAnSgckc764UDyeLi1FfVv7FiDYfBm121n7imRHb3fvNpmMr1guhH/1sdg8SkCpYxZDkewvNRLYGlGENtGIhviyBFBcsn/cEC22v6AJs+4IoY929DhBKXw35ecS1BUnbpvoSHlrgyDcYaztvg5z6AYnNoPHFKFdP/MmU86ZZr/bEiruQWUcerNbDJlOYhpuOJBhcd+8s6KcJCLy1G68cw+pUZm1RMEox4In1c7";
+        parameters.vuforiaLicenseKey = "ATUnO23/////AAAAGfN3NJaVtUVwqWhgjFxyO2h0TDN/26T4WFlJOjz7YbOqBoP+h6dhU77AmHvf4tDJMMLZAu602Z1jnohtpRmTDbVkZuQ3B1Ym/r9DEKBMT3zEbYALAdIBgF/a9rNGhxXDSJF9FSPxrfYaVrfLneryTb/DMbsH06UvKFYM6sZtaDaxHS1ZBX5LDMiUEHcmbXoGXpvjD50C3DZVgOiWBIlPz4lydCE9HiEWTm7z7O929fVMJjBwAu1xL1AWHeYw0mn4Ngyi82SefCTKBdcVz/JXtmWo721sn08pZPcpfPOpeJ2YHGw0uZPF+d9AQXJ8oVItZOtZG45yDLAaPnQnxYqHtJRgSj/40KqkuRSWkLW0R03A";
         parameters.cameraDirection = VuforiaLocalizer.CameraDirection.BACK;
         Vuforia.setHint(HINT.HINT_MAX_SIMULTANEOUS_IMAGE_TARGETS,4); //Kinda self explanatory
         this.vuforia = ClassFactory.createVuforiaLocalizer(parameters);
