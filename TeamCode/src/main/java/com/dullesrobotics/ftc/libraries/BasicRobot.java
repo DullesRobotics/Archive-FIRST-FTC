@@ -15,7 +15,7 @@ public class BasicRobot {
     private DcMotor BRM;
     private Gamepad gamepad1;
     private Gamepad gamepad2;
-
+    private Drivetrain driveTrain;
     public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,Gamepad g1){
         FLM = frontLeft;
         FRM = frontRight;
@@ -31,6 +31,15 @@ public class BasicRobot {
         BRM = backRight;
         gamepad1 = g1;
         gamepad2 = g2;
+    }
+    public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,Gamepad g1,Gamepad g2,Drivetrain dT){
+        FLM = frontLeft;
+        FRM = frontRight;
+        BLM = backLeft;
+        BRM = backRight;
+        gamepad1 = g1;
+        gamepad2 = g2;
+        driveTrain = dT;
     }
 
     public DcMotor getBLM() {

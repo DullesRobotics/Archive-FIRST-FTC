@@ -160,12 +160,12 @@
         "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\layout\\header.xml"
     },
     {
-        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_logs.xml",
-        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_view_logs.xml"
-    },
-    {
         "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout\\servo_list.xml",
         "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\servo_list.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_logs.xml",
+        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_view_logs.xml"
     },
     {
         "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_parent.xml",
