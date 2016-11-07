@@ -16,10 +16,11 @@ public class ArcadeDriveTeleOp extends OpMode {
     public void init() {
         robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1);
         ArcDrive = new ArcadeDrive(robot);
+        robot.setDriveTrain(ArcDrive);
     }
 
     @Override
     public void loop() {
-        ArcDrive.driveWithGamepad();
+        robot.driveWithGamepad();
     }
 }
