@@ -33,6 +33,7 @@ package org.firstinspires.ftc.robotcontroller.internal;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -92,6 +93,8 @@ import org.firstinspires.ftc.robotcore.internal.AppUtil;
 import org.firstinspires.inspection.RcInspectionActivity;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -142,6 +145,29 @@ public class FtcRobotControllerActivity extends Activity {
 
   }
 
+  public void init(UsbManager usbManager,String ACTION_USB_PERMISSION, UsbDevice device){
+    usbManager = (UsbManager) getSystemService(this.USB_SERVICE);
+    HashMap<String, UsbDevice> usbDevices = usbManager.getDeviceList();
+    if (!usbDevices.isEmpty()) {
+      boolean keep = true;
+      for (Map.Entry<String, UsbDevice> entry : usbDevices.entrySet()) {
+        device = entry.getValue();
+        int deviceVID = device.getVendorId();
+        if (deviceVID == 0x2341)//Arduino Vendor ID
+        {
+          PendingIntent pi = PendingIntent.getBroadcast(this, 0, new Intent(ACTION_USB_PERMISSION), 0);
+          usbManager.requestPermission(device, pi);
+          keep = false;
+        } else {
+          connection = null;
+          device = null;
+        }
+
+        if (!keep)
+          break;
+      }
+    }
+  }
   protected ServiceConnection connection = new ServiceConnection() {
     @Override
     public void onServiceConnected(ComponentName name, IBinder service) {
