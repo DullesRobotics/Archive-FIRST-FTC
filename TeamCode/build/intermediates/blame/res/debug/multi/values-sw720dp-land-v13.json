@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "file": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

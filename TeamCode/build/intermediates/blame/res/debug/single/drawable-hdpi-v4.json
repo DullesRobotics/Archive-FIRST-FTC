@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
-        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable-hdpi-v4\\button_shape.xml"
+        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\drawable-hdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FIRST-FTC\\FtcRobotController\\unspecified\\res\\drawable-hdpi-v4\\ic_launcher.png"
+        "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_shape.xml",
+        "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable-hdpi-v4\\button_shape.xml"
     }
 ]
