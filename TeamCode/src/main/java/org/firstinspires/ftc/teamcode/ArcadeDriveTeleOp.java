@@ -9,20 +9,18 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 /**
  * Created by Kenneth on 11/6/2016.
  */
-@TeleOp
 public class ArcadeDriveTeleOp extends OpMode {
     BasicRobot robot;
     ArcadeDrive ArcDrive;
     WheeledShooter shooter;
+    private String shooterMotor1; //This is for Wheeled Shooter and Flicker Shooter
+    private String shooterMotor2; //This is for Wheeled Shooter
     @Override
     public void init() {
-        /*** Use the robot def below for flicker shooter ***/
-        robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1);
-        /*** Use the robot def below for wheeled shooter ***/
-        robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1);
+        robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),hardwareMap.dcMotor.get(shooterMotor1),gamepad1);
         ArcDrive = new ArcadeDrive(robot);
         robot.setDriveTrain(ArcDrive);
-        shooter = new WheeledShooter(1,1);
+        shooter = new WheeledShooter(hardwareMap.dcMotor.get(shooterMotor1),hardwareMap.dcMotor.get(shooterMotor2));
     }
 
     @Override
