@@ -20,7 +20,7 @@ public class ArcadeDriveTeleOp extends OpMode {
         robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),hardwareMap.dcMotor.get(shooterMotor1),gamepad1);
         ArcDrive = new ArcadeDrive(robot);
         robot.setDriveTrain(ArcDrive);
-        shooter = new WheeledShooter(1,1,hardwareMap.dcMotor.get(shooterMotor1),hardwareMap.dcMotor.get(shooterMotor2));
+        shooter = new WheeledShooter(hardwareMap.dcMotor.get(shooterMotor1),hardwareMap.dcMotor.get(shooterMotor2));
     }
 
     @Override

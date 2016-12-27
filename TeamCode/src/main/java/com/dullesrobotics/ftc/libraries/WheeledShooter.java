@@ -11,6 +11,11 @@ public class WheeledShooter {
     private double motorSpeed1,motorSpeed2 = 0;
     private DcMotor motor1,motor2;
 
+    public WheeledShooter(DcMotor motorOne, DcMotor motorTwo){
+        motor1 = motorOne;
+        motor2 = motorTwo;
+    }
+
     public WheeledShooter(double speed1, double speed2, DcMotor motorOne, DcMotor motorTwo){
         motorSpeed1 = speed1;
         motorSpeed2 = speed2;
