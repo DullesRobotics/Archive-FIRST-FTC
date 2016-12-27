@@ -16,6 +16,9 @@ public class ArcadeDriveTeleOp extends OpMode {
     WheeledShooter shooter;
     @Override
     public void init() {
+        /*** Use the robot def below for flicker shooter ***/
+        robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1);
+        /*** Use the robot def below for wheeled shooter ***/
         robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1);
         ArcDrive = new ArcadeDrive(robot);
         robot.setDriveTrain(ArcDrive);
