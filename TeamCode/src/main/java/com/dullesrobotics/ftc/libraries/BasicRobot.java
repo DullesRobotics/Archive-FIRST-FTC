@@ -16,12 +16,14 @@ public class BasicRobot {
     private Gamepad gamepad1;
     private Gamepad gamepad2;
     private Drivetrain driveTrain;
-    public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,Gamepad g1){
+    private DcMotor shooterMotor;
+    public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,DcMotor putYaShooterMotorHere, Gamepad g1){
         FLM = frontLeft;
         FRM = frontRight;
         BLM = backLeft;
         BRM = backRight;
         gamepad1 = g1;
+        shooterMotor = putYaShooterMotorHere;
     }
 
     public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,Gamepad g1,Gamepad g2){
@@ -90,4 +92,7 @@ public class BasicRobot {
     public void setGamepad2(Gamepad gamepad2) {
         this.gamepad2 = gamepad2;
     }
+
+    public DcMotor getShooterMotor(){ return shooterMotor; }
+
 }

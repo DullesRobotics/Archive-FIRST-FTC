@@ -20,12 +20,28 @@
         "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable\\button_shape.xml"
     },
     {
+        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\black_border.xml",
+        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\drawable\\black_border.xml"
+    },
+    {
         "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
         "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
+        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu.png",
+        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\drawable\\icon_menu.png"
+    },
+    {
         "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\black_border.xml",
         "source": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\drawable\\black_border.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\button_shape.xml",
+        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_robotcontroller.png",
+        "source": "C:\\FIRST-FTC\\TeamCode\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\drawable\\icon_robotcontroller.png"
     },
     {
         "merged": "C:\\Users\\kk200\\StudioProjects\\FIRST-FTC\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu.png",

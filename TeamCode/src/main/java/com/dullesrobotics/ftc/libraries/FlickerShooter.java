@@ -11,6 +11,11 @@ import com.qualcomm.robotcore.hardware.Gamepad;
 public class FlickerShooter {
     private DcMotor ShooterMotor;
     private Gamepad gamepad1;
+    public FlickerShooter(BasicRobot robot){
+        super();
+        ShooterMotor = robot.getShooterMotor();
+        gamepad1 = robot.getGamepad1();
+    }
     public FlickerShooter(DcMotor shooterMotor, Gamepad g1) {
         super();
         ShooterMotor = shooterMotor;
