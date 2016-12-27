@@ -1,36 +1,38 @@
 package org.firstinspires.ftc.teamcode;
 
 import com.dullesrobotics.ftc.libraries.ArcadeDrive;
-import com.dullesrobotics.ftc.libraries.BasicRobot;
-import com.dullesrobotics.ftc.libraries.WheeledShooter;
+import com.dullesrobotics.ftc.libraries.RobotWithFlickerShooter;
+import com.dullesrobotics.ftc.libraries.RobotWithWheeledShooter;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 /**
  * Created by Kenneth on 11/6/2016.
  */
 public class ArcadeDriveTeleOp extends OpMode {
-    BasicRobot robot;
+    RobotWithWheeledShooter robotWithWheeledShooter;
+    RobotWithFlickerShooter robotWithFlickerShooter;
     ArcadeDrive ArcDrive;
-    WheeledShooter shooter;
     private String shooterMotor1; //This is for Wheeled Shooter and Flicker Shooter
     private String shooterMotor2; //This is for Wheeled Shooter
     @Override
     public void init() {
-        robot = new BasicRobot(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),hardwareMap.dcMotor.get(shooterMotor1),gamepad1);
-        ArcDrive = new ArcadeDrive(robot);
-        robot.setDriveTrain(ArcDrive);
-        shooter = new WheeledShooter(hardwareMap.dcMotor.get(shooterMotor1),hardwareMap.dcMotor.get(shooterMotor2));
+        //For Wheeled Shooter
+        robotWithWheeledShooter = new RobotWithWheeledShooter(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1,hardwareMap.dcMotor.get("leftShooter"),hardwareMap.dcMotor.get("rightShooter"));
+
+
+        //Set Arcade Drive Mode
+        ArcDrive = new ArcadeDrive(robotWithWheeledShooter);
+        robotWithWheeledShooter.setDriveTrain(ArcDrive);
     }
 
     @Override
     public void loop() {
-        robot.driveWithGamepad();
-        if (robot.getGamepad1().a)  //change
-            shooter.shootForward();
-        else if(robot.getGamepad1().b) //change
-            shooter.shootBackward();
-        else if(robot.getGamepad1().x) //change
-            shooter.stop();
+        robotWithWheeledShooter.driveWithGamepad();
+        if (robotWithWheeledShooter.getGamepad1().a)  //change
+            robotWithWheeledShooter.shootForward();
+        else if(robotWithWheeledShooter.getGamepad1().b) //change
+            robotWithWheeledShooter.shootBackward();
+        else if(robotWithWheeledShooter.getGamepad1().x) //change
+            robotWithWheeledShooter.stopShooter();
     }
 }
