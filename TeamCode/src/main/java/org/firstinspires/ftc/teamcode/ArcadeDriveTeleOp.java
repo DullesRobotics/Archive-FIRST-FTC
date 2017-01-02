@@ -9,24 +9,29 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
  * Created by Kenneth on 11/6/2016.
  */
 public class ArcadeDriveTeleOp extends OpMode {
-    RobotWithWheeledShooter robotWithWheeledShooter;
-    RobotWithFlickerShooter robotWithFlickerShooter;
-    ArcadeDrive ArcDrive;
+    //private RobotWithWheeledShooter robotWithWheeledShooter;
+    private RobotWithFlickerShooter robotWithFlickerShooter;
+    private ArcadeDrive ArcDrive;
     private String shooterMotor1; //This is for Wheeled Shooter and Flicker Shooter
     private String shooterMotor2; //This is for Wheeled Shooter
+
     @Override
     public void init() {
-        //For Wheeled Shooter
-        robotWithWheeledShooter = new RobotWithWheeledShooter(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1,hardwareMap.dcMotor.get("leftShooter"),hardwareMap.dcMotor.get("rightShooter"));
-
-
-        //Set Arcade Drive Mode
+        /*For Wheeled Shooter
+        //robotWithWheeledShooter = new RobotWithWheeledShooter(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1,hardwareMap.dcMotor.get("leftShooter"),hardwareMap.dcMotor.get("rightShooter"));
         ArcDrive = new ArcadeDrive(robotWithWheeledShooter);
         robotWithWheeledShooter.setDriveTrain(ArcDrive);
+        */
+
+        robotWithFlickerShooter = new RobotWithFlickerShooter(hardwareMap.dcMotor.get("FLM"),hardwareMap.dcMotor.get("FRM"),hardwareMap.dcMotor.get("BLM"),hardwareMap.dcMotor.get("BRM"),gamepad1,hardwareMap.dcMotor.get("flickerShooter"));
+        ArcDrive = new ArcadeDrive(robotWithFlickerShooter);
+        robotWithFlickerShooter.setDriveTrain(ArcDrive);
     }
 
     @Override
     public void loop() {
+
+        /*          UNCOMMENT FOR WHEELED SHOOTER
         robotWithWheeledShooter.driveWithGamepad();
         if (robotWithWheeledShooter.getGamepad1().a)  //change
             robotWithWheeledShooter.shootForward();
@@ -34,5 +39,18 @@ public class ArcadeDriveTeleOp extends OpMode {
             robotWithWheeledShooter.shootBackward();
         else if(robotWithWheeledShooter.getGamepad1().x) //change
             robotWithWheeledShooter.stopShooter();
+            */
+        robotWithFlickerShooter.driveWithGamepad();
+        if (robotWithFlickerShooter.getGamepad1().a)  //change
+        {
+            robotWithFlickerShooter.turnForwards();
+        }
+        else if(robotWithFlickerShooter.getGamepad1().b) //change
+        {
+            robotWithFlickerShooter.turnBackwards();
+        }
+        else {
+            robotWithFlickerShooter.stopShooter();
+        }
     }
 }

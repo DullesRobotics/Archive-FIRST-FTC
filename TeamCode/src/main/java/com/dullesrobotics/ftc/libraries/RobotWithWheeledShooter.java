@@ -57,6 +57,7 @@ public class RobotWithWheeledShooter extends BasicRobot {
         rightShooterMotor.setPower(RightMotorSpeed);
     }
 
+
     public void stopShooter(){
         leftShooterMotor.setPower(0);
         rightShooterMotor.setPower(0);
