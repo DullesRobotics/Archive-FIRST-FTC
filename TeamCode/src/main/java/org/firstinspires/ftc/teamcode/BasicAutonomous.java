@@ -1,5 +1,7 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.dullesrobotics.ftc.libraries.ArcadeDrive;
+import com.dullesrobotics.ftc.libraries.RobotWithFlickerShooter;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
@@ -19,7 +21,21 @@ public class BasicAutonomous extends LinearOpMode {
         leftMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         rightMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
+        RobotWithFlickerShooter robotWithFlickerShooter = new RobotWithFlickerShooter(hardwareMap.dcMotor.get("flickerShooter"),gamepad1);
+        ArcadeDrive ArcDrive = new ArcadeDrive(robotWithFlickerShooter);
+        robotWithFlickerShooter.setDriveTrain(ArcDrive);
+
         waitForStart();
+
+
+        //Start Changes by Karim
+
+        //Drive Straight
+        rightMotor.setPower(1);
+        leftMotor.setPower(1);
+        sleep(1000);
+
+        //End Changes by Karim
 
         //Drive Straight
         leftMotor.setPower(1);
