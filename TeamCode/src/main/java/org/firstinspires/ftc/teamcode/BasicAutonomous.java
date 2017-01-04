@@ -26,8 +26,6 @@ public class BasicAutonomous extends LinearOpMode {
         robotWithFlickerShooter.setDriveTrain(ArcDrive);
 
         waitForStart();
-
-
         //Start Changes by Karim
 
         //Drive Straight
