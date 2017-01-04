@@ -25,13 +25,19 @@ public class BasicRobot {
         gamepad1 = g1;
     }
 
-    public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,Gamepad g1,Gamepad g2){
+    public BasicRobot(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight,Gamepad g1, Gamepad g2){
         FLM = frontLeft;
         FRM = frontRight;
         BLM = backLeft;
         BRM = backRight;
         gamepad1 = g1;
         gamepad2 = g2;
+    }
+
+    public BasicRobot(DcMotor backleft, DcMotor backRight,Gamepad g1) {
+        BLM = backleft;
+        BRM = backRight;
+        gamepad1 = g1;
     }
 
     public void setDriveTrain(Drivetrain driveTrain) {

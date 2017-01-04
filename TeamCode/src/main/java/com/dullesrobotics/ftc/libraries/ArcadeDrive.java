@@ -16,14 +16,14 @@ public class ArcadeDrive extends Drivetrain{
     @Override
     public void driveWithGamepad() {
         Gamepad gamepad = robot.getGamepad1();
-        drive(-gamepad.left_stick_x,-gamepad.left_stick_y); //Don't forget the negatives
+        drive(-gamepad.right_stick_x,-gamepad.right_stick_y); //Don't forget the negatives
 
     }
     public void drive(double xPower, double yPower){
-        robot.getFLM().setPower(xPower + yPower);
-        robot.getFRM().setPower(-xPower + yPower);
-        robot.getBLM().setPower(xPower + yPower);
-        robot.getBRM().setPower(-xPower + yPower);
+       if(robot.getFLM() != null) robot.getFLM().setPower(xPower + yPower);
+       if(robot.getFRM() != null) robot.getFRM().setPower(-xPower + yPower);
+        robot.getBLM().setPower(xPower - yPower);
+        robot.getBRM().setPower(xPower + yPower);
     }
 
 

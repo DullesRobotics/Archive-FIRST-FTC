@@ -45,6 +45,8 @@ import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.Looper;
+import android.os.Message;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -97,6 +99,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
 
 public class FtcRobotControllerActivity extends Activity {
 
@@ -145,7 +149,7 @@ public class FtcRobotControllerActivity extends Activity {
 
   }
 
-  public void init(UsbManager usbManager,String ACTION_USB_PERMISSION, UsbDevice device){
+  /*public void init(UsbManager usbManager,String ACTION_USB_PERMISSION, UsbDevice device){
     usbManager = (UsbManager) getSystemService(this.USB_SERVICE);
     HashMap<String, UsbDevice> usbDevices = usbManager.getDeviceList();
     if (!usbDevices.isEmpty()) {
@@ -167,7 +171,8 @@ public class FtcRobotControllerActivity extends Activity {
           break;
       }
     }
-  }
+  }*/
+
   protected ServiceConnection connection = new ServiceConnection() {
     @Override
     public void onServiceConnected(ComponentName name, IBinder service) {

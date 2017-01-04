@@ -1,12 +1,12 @@
 package com.dullesrobotics.ftc.libraries;
 
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Gamepad;
 
 /**
  * Created by Kenneth on 12/27/2016.
  */
-
 public class RobotWithWheeledShooter extends BasicRobot {
     private DcMotor leftShooterMotor;
     private DcMotor rightShooterMotor;

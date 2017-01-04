@@ -13,10 +13,13 @@ public class RobotWithFlickerShooter extends BasicRobot {
         shooterMotor = shooter;
     }
     public RobotWithFlickerShooter(DcMotor frontLeft, DcMotor frontRight, DcMotor backLeft, DcMotor backRight, Gamepad g1, Gamepad g2,DcMotor shooter){
-        super(frontLeft,frontRight,backLeft,backRight, g1,g2);
+        super(frontLeft,frontRight,backLeft,backRight, g1);
         shooterMotor = shooter;
     }
-
+    public RobotWithFlickerShooter(DcMotor backLeft, DcMotor backRight, Gamepad g1, DcMotor shooter){
+        super(backLeft,backRight, g1);
+        shooterMotor = shooter;
+    }
 
     public DcMotor getShooterMotor() {
         return shooterMotor;
