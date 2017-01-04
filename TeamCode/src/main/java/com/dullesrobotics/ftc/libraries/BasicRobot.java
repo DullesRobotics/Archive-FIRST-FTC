@@ -40,6 +40,10 @@ public class BasicRobot {
         gamepad1 = g1;
     }
 
+    public BasicRobot(Gamepad g1){
+        gamepad1 = g1;
+    }
+
     public void setDriveTrain(Drivetrain driveTrain) {
         this.driveTrain = driveTrain;
     }
